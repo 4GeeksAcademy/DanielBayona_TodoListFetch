@@ -10,3 +10,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-image: radial-gradient(circle, #152134, #142b3e, #123647, #13414f, #174c55);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tittle{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.myForm{
+    display: flex;
+    margin-top: 40px;   
+    width: 500px;
+}
+
+
+.myTask{
+    display: flex;
+    min-width: 500px;
+    max-width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+}
+
