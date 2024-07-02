@@ -12,7 +12,7 @@ const TodoList = ({tasks,removeTask}) =>{
 		<div className="myList">
 			<ul className="list-group">
 				{tasks.map((task)=>{
-					return(<li key={task.id} className="list-group-item text-light myTask p-3 mb-3 bg-dark rounded-pill">
+					return(<li key={task.id} className="liStyle list-group-item text-light myTask rounded bg-dark m-3 ">
 						{task.label} 
 					<button className="btn btn-secondary removeBtn" onClick={() => removeTask(task.id)}> 
 						<FontAwesomeIcon icon={faTrashCan} />

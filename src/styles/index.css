@@ -38,8 +38,10 @@ body{
 .myTask{
     display: flex;
     min-width: 500px;
-    max-width: fit-content;
+    max-width: 100%;
     justify-content: space-between;
     align-items: center;
+    word-wrap: break-word;
+    white-space: normal;
 }
 
